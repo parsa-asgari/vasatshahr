@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.0.2",
+    "@mui/material": "^6.0.2",
     "@react-email/components": "^0.0.6",
     "@types/node": "20.2.3",
     "@types/react": "18.2.6",
@@ -19,6 +23,7 @@
     "eslint-config-next": "13.4.3",
     "formik": "^2.2.9",
     "next": "13.4.3",
+    "next-persian-fonts": "^0.1.5",
     "nodemailer": "^6.9.2",
     "nodemailer-smtp-transport": "^2.7.4",
     "postcss": "8.4.23",
