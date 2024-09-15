@@ -14,7 +14,7 @@ export const metadata = {
   description: "به ساکن غیر وابسطه‌ی ط",
   images: [
     {
-      url: '/vasatshahr.png', // Must be an absolute URL
+      url: 'https://www.vasatshahr.ir/_next/image?url=%2Fvasatshahr.png&w=1200&q=75', // Must be an absolute URL
       width: 800,
       height: 600,
     },
