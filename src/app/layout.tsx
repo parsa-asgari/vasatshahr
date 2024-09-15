@@ -2,6 +2,7 @@ import "../styles/globals.css";
 import "react-toastify/dist/ReactToastify.css";
 import { sahel } from 'next-persian-fonts'
 // import { Inter } from "next/font/google";
+import Head from 'next/head';
 
 import Header from "@/components/header";
 // import Footer from "@/components/footer";
@@ -19,6 +20,19 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" >
+      <Head>
+        <title>وسط‌‌شهر</title>
+        <meta name="description" content="جایی که که هنر در لحظه‌های نابِ خلاقیت متولد می‌شود." key="desc" />
+        <meta property="og:title" content="وسط‌‌شهر" />
+        <meta
+          property="og:description"
+          content="جایی که که هنر در لحظه‌های نابِ خلاقیت متولد می‌شود." 
+        />
+        <meta
+          property="og:image"
+          content="https://www.vasatshahr.ir/_next/image?url=%2Fvasatshahr.png&w=1200&q=75"
+        />
+      </Head>
       <body className={sahel.className}>
         <Header />
         {children}
