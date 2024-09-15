@@ -30,7 +30,7 @@ export default function RootLayout({
         />
         <meta
           property="og:image"
-          content="https://www.vasatshahr.ir/_next/image?url=%2Fvasatshahr.png&w=1200&q=75"
+          content="/vasatshahr.png"
         />
       </Head>
       <body className={sahel.className}>
