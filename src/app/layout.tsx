@@ -9,8 +9,17 @@ import Header from "@/components/header";
 // const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
+  openGraph: {
   title: "وسط‌شهر",
   description: "به ساکن غیر وابسطه‌ی ط",
+  images: [
+    {
+      url: '/vasatshahr.png', // Must be an absolute URL
+      width: 800,
+      height: 600,
+    },
+  ]
+  }
 };
 
 export default function RootLayout({
@@ -20,19 +29,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" >
-      <Head>
-        <title>وسط‌‌شهر</title>
-        <meta name="description" content="جایی که که هنر در لحظه‌های نابِ خلاقیت متولد می‌شود." key="desc" />
-        <meta property="og:title" content="وسط‌‌شهر" />
-        <meta
-          property="og:description"
-          content="جایی که که هنر در لحظه‌های نابِ خلاقیت متولد می‌شود." 
-        />
-        <meta
-          property="og:image"
-          content="/vasatshahr.png"
-        />
-      </Head>
       <body className={sahel.className}>
         <Header />
         {children}
